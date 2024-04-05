@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-application01"
+  annotations:
+    "humanitec.com/orgId": "tw-empc-poc"
+    "humanitec.com/appId": "demo-application01"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
